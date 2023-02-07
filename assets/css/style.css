@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+hr{
+    border: 1px solid #f2f2f2;
+}
+
+.icon-mgr {
+    margin-right: 4px;
+}
+
+.header-top{
+    background-color: #f2f2f2;
+    padding: 5px 0;
+}
+.header-top .row {
+    justify-content: flex-end;
+}
+
+.login,.signin{
+    color: white;
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: #1890ff;
+}
+.signin {
+    background-color: #FF4D4F;
+}
+.login:hover{
+    background-color: #40a9ff;
+}
+.signin:hover{
+    background-color: #ff7875;
+}
+
+.main-header{
+    padding: 20px 0;
+}
+
+.main-header > .row {
+    align-items: center;
+}
+
+.main-header .main-logo {
+    width: 100%;
+    cursor: pointer;
+}
+
+.header-search {
+    display: flex;
+}
+.search-input {
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #f2f2f2;
+    padding: 20px;
+    color: #bdb5b5;
+}
+.search-btn{
+    padding: 20px;
+    background-color: #0c78da;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.active-tag-btn{
+    padding: 20px;
+    font-size: 14px;
+    background-color: #0c78da;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.header-menu {
+    background-color: #0c78da;
+}
+
+.header-menu .menu-item{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+.header-menu .menu-item:hover{
+    background-color: #20bcf0;
+}
+
+.main.grid.wide {
+    margin-top: 20px;
+    height: 1000px;
+}
+.main .main-info-img {
+    width: 100%;
+}
+
+.main .main-contact {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ff9100;
+    border-radius: 5px;
+}
+
+.main-contact .main-contact-header {
+    background: linear-gradient(270deg,#ff8100,#f05225);
+    color: white;
+    font-size: 14;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.main-contact .main-contact-item{
+    padding: 10px;
+}
+
+.main-contact-item .contact-item-img {
+    width: 80%;
+    border: 1.5px solid #20bcf0;
+    border-radius: 50%;
+}
+.main-contact-item .contact-item-header {
+    color: #495057;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.main-contact-item .contact-item-phone {
+    color: #1890ff;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.main-contact-item .contact-item-facebook {
+    color: #1890ff;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.contact-hotline {
+    margin: 30px 5px;
+    display: flex;
+    align-items: center;
+}
+.hotline-icon{
+    color: #f05225;
+    font-size: 20px;
+    background-color: #ffefef;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    animation: hotlineBlink ease-in 0.6s infinite alternate ;
+}
+
+.hotline-number {
+    color: #f05225;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.find-id {
+    margin: 10px;
+    display: flex;
+    border: 1px solid #beb7b7;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    color: #bdb5b5;
+}
+
+.find-id-input {
+    width: 100%;
+    border: none;
+    color: #bdb5b5;
+    font-size: 14px
+
+}
+.find-id-input::placeholder{
+    color: #bdb5b5;
+    font-size: 14px
+}
+
+
+
+
+
+
+
+
+/* Hiệu ứng */
+@keyframes hotlineBlink{
+    from{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    to{
+        transform: rotate(-30deg);
+        opacity: 0.4;
+    }
+}
