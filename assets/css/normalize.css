@@ -352,4 +352,11 @@
     outline: 0;
   }
 
-  
+  svg,img{
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    display: block;
+  }
