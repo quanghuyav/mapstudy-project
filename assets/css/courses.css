@@ -1,0 +1,94 @@
+.main .row {
+    margin-top: 15px;
+}
+.main-link {
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    color: black;
+}
+.main-link a {
+    display: inline-block;
+}
+.main-link span {
+    color: rgb(255, 68, 68);
+}
+
+.brand .brand-title{
+    text-transform: uppercase;
+    color: #2970b8;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+.brand-items {
+    padding: 15px;
+    flex-direction: column;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.brand-items hr {
+    border: none;
+    border-top: 1px solid #f2f2f2;
+    width: 100%;
+}
+.brand-item {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.brand-img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.courses-header {
+    font-size: 12px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #9c9b9b;
+}
+.courses-header select {
+    color: #9c9b9b;
+    padding-left: 8px;
+    border: none;
+    margin-left: 5px;
+}
+
+.course {
+    background-color: white;
+    box-shadow: 0 0 5px 0 hsl(0deg 0% 65% / 75%);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.course .course-img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.course .course-name {
+    margin: 15px;
+    color: #2970b8;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+.course .course-teacher {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin: 0 15px;
+    padding-bottom: 10px ;
+}
+.course .course-teacher span {
+    color: #e3342f;
+}

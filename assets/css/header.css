@@ -1,0 +1,96 @@
+.header-top{
+    background-color: #f2f2f2;
+    padding: 5px 0;
+}
+.header-top .row {
+    justify-content: flex-end;
+}
+
+.login,.signin{
+    color: white;
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: #1890ff;
+}
+.signin {
+    background-color: #FF4D4F;
+}
+.login:hover{
+    background-color: #40a9ff;
+}
+.signin:hover{
+    background-color: #ff7875;
+}
+
+.main-header{
+    padding: 20px 0;
+}
+
+.main-header > .row {
+    align-items: center;
+}
+
+.main-header .main-logo {
+    width: 100%;
+    cursor: pointer;
+}
+
+.header-search {
+    display: flex;
+}
+.search-input {
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #f2f2f2;
+    padding: 20px;
+    color: #bdb5b5;
+}
+.search-btn{
+    padding: 20px;
+    background-color: #0c78da;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.active-tag-btn{
+    padding: 20px;
+    font-size: 14px;
+    background-color: #0c78da;
+    color: white;
+    text-align: center;
+    cursor: pointer;    
+}
+.search-btn:hover,.active-tag-btn:hover {
+    background-color: #298ce9;
+}
+
+.header-menu {
+    background-color: #0c78da;
+}
+
+.header-menu .menu-item{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+.header-menu .menu-item:hover{
+    background-color: #20bcf0;
+}
+
+
+@media (max-width: 739px) {
+    .header-menu .row {
+        flex-direction: column;
+    }
+    .active-tag-btn,.header-search {
+        margin-top: 15px;
+    }
+    
+}

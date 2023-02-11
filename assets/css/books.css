@@ -1,0 +1,78 @@
+.main .row {
+    margin-top: 15px;
+}
+.main-link {
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    color: black;
+}
+.main-link a {
+    display: inline-block;
+}
+.main-link span {
+    color: rgb(255, 68, 68);
+}
+
+.brand .brand-title{
+    text-transform: uppercase;
+    color: #2970b8;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+.brand-items {
+    padding: 15px;
+    flex-direction: column;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.brand-items hr {
+    border: none;
+    border-top: 1px solid #f2f2f2;
+    width: 100%;
+}
+.brand-item {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.brand-img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.books-header {
+    font-size: 12px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #9c9b9b;
+}
+.books-header select {
+    color: #9c9b9b;
+    padding-left: 8px;
+    border: none;
+    margin-left: 5px;
+}
+
+.no-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 40px;
+}
+.no-item i {
+    color: #1890ff;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 30px 0;
+}
